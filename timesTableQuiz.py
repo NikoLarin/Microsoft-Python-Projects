@@ -23,8 +23,9 @@ for i in range(questions):
         correct += 1
     else:
         print("Incorrect. The answer is", answer)
-print("You got" + str(correct) + " out of " + str(questions) + " questions correct.")
+print("You got " + str(correct) + " out of " + str(questions) + " questions correct.")
 print()
 
 grade = (correct / questions) * 100
+
 print("Your grade is: " + str(grade) + "%")
